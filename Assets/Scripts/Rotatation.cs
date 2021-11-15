@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rotatation : MonoBehaviour
 {
-public float xAngle, yAngle, zAngle;
+    public float xAngle, yAngle, zAngle;
     public GameObject cube1;
     public float speed = 5.0f;
 

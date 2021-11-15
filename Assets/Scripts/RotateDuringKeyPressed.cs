@@ -15,10 +15,10 @@ public class RotateDuringKeyPressed : MonoBehaviour
     }
     void Update()
     {
-     if (Input.inputString == lettre)
+     if (Input.inputString != lettre)
      {
         cube1.transform.Rotate(xAngle*speed, yAngle*speed, zAngle*speed, Space.Self);
-        Debug.Log("La touche " +lettre+" a été pressé");
+        Debug.Log("La touche " +lettre+" a  press?");
 	 }
         
     }

@@ -10,7 +10,7 @@ public class CreateOnClick : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        model2.transform.GetComponent<Renderer>().material.color = Color.blue;
+       // model2.transform.GetComponent<Renderer>().material.color = Color.blue;
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class CreateOnClick : MonoBehaviour
     {
         if (Input.GetButton("Fire2"))
             Debug.Log("bouton Fire 2 cliqué");
-    
+
 
     }
 }

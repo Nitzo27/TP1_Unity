@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class ChangeColorOnMouse : MonoBehaviour
 {   
-    public Transform cub;
+    
+    public Color r;
+
+
     private Color rend;
 
 
@@ -15,11 +18,13 @@ public class ChangeColorOnMouse : MonoBehaviour
     }
         void OnMouseOver()
     {
-        cub.GetComponent<Renderer>().material.color = Color.black;
+        
+        transform.GetComponent<Renderer>().material.color = r;
+        
     }
      void OnMouseExit()
      {
-      cub.GetComponent<Renderer>().material.color = rend;
+      transform.GetComponent<Renderer>().material.color = rend;
      }
 
     // Update is called once per frame
